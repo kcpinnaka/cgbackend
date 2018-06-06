@@ -1,0 +1,185 @@
+{
+	"createdAt": "2018-06-06T19:11:09.621Z",
+	"version": "10.0.12",
+	"kind": "ARC#AllDataExport",
+	"requests": [{
+			"type": "saved",
+			"headers": "content-type: application/json\ncookie: JSESSIONID=D65FD757062241B7130ED185E893B48D\nauthorization: Basic dXNlcjE6dXNlcjE=",
+			"method": "POST",
+			"name": "create-bid",
+			"payload": "{\n  \"projectId\": 1,\n  \"amount\": 10,\n  \"bidderId\": 1,\n  \"autoBid\": 9  \n}",
+			"url": "http://localhost:8080/create-bid",
+			"updated": 1528312226390,
+			"_referenceLegacyProject": "40b9a766-b9e1-42fb-9ec4-3047f7f275ca",
+			"kind": "ARC#RequestData"
+		}, {
+			"type": "saved",
+			"headers": "content-type: application/json\ncookie: JSESSIONID=A62A237A3CD6AD8FD900626F72BDC031; JSESSIONID=D65FD757062241B7130ED185E893B48D",
+			"method": "POST",
+			"name": "create-bidder",
+			"payload": "{\n  \"name\": \"bidder1\"\n}",
+			"url": "http://localhost:8080/create-bidder",
+			"updated": 1528309187947,
+			"_referenceLegacyProject": "40b9a766-b9e1-42fb-9ec4-3047f7f275ca",
+			"kind": "ARC#RequestData"
+		}, {
+			"type": "saved",
+			"headers": "content-type: application/json\ncookie: JSESSIONID=A62A237A3CD6AD8FD900626F72BDC031; JSESSIONID=D65FD757062241B7130ED185E893B48D",
+			"method": "POST",
+			"name": "create-employer",
+			"payload": "{\n  \"name\": \"employer1\"\n}",
+			"url": "http://localhost:8080/create-employer",
+			"updated": 1528309222796,
+			"_referenceLegacyProject": "40b9a766-b9e1-42fb-9ec4-3047f7f275ca",
+			"kind": "ARC#RequestData"
+		}, {
+			"type": "saved",
+			"name": "CreateBidder",
+			"method": "POST",
+			"payload": "{\n  \"name\": \"Bidder1\"}",
+			"url": "http://localhost:8080/create-bidder",
+			"headers": "",
+			"created": 1528308964352,
+			"updated": 1528308964352,
+			"kind": "ARC#RequestData"
+		}, {
+			"type": "saved",
+			"headers": "content-type: application/json\ncookie: JSESSIONID=A62A237A3CD6AD8FD900626F72BDC031",
+			"method": "POST",
+			"name": "CreateBidder",
+			"payload": "{\n  \"name\": \"bidder1\"\n}",
+			"url": "http://localhost:8080/create-bidder",
+			"updated": 1528309134712,
+			"_referenceLegacyProject": "40b9a766-b9e1-42fb-9ec4-3047f7f275ca",
+			"kind": "ARC#RequestData"
+		}, {
+			"type": "saved",
+			"name": "CreateBidder",
+			"method": "POST",
+			"payload": "{\n  \"name\": \"Bidder1\"}",
+			"url": "http://localhost:8080/onlineauction/api/admin/create-bidder",
+			"headers": "",
+			"created": 1528308878319,
+			"updated": 1528308878319,
+			"kind": "ARC#RequestData"
+		}, {
+			"type": "saved",
+			"name": "CreateEmployer",
+			"method": "POST",
+			"payload": "{\n  \"name\": \"Employer1\"}",
+			"url": "http://localhost:8080/create-employer",
+			"headers": "",
+			"created": 1528308964352,
+			"updated": 1528308964352,
+			"kind": "ARC#RequestData"
+		}, {
+			"type": "saved",
+			"name": "CreateEmployer",
+			"method": "POST",
+			"payload": "{\n  \"name\": \"Employer1\"}",
+			"url": "http://localhost:8080/onlineauction/api/admin/create-employer",
+			"headers": "",
+			"created": 1528308878319,
+			"updated": 1528308878319,
+			"kind": "ARC#RequestData"
+		}, {
+			"type": "saved",
+			"name": "CreateProject",
+			"method": "POST",
+			"payload": "{\n  \"name\": \"Proj1\",\n  \"endDate\": \"04-06-2018 22:14:09 +0000\"\n}",
+			"url": "http://localhost:8080/create-project",
+			"headers": "",
+			"created": 1528308964352,
+			"updated": 1528308964352,
+			"kind": "ARC#RequestData"
+		}, {
+			"type": "saved",
+			"name": "CreateProject",
+			"method": "POST",
+			"payload": "{\n  \"name\": \"Proj1\",\n  \"endDate\": \"04-06-2018 22:14:09 +0000\"\n}",
+			"url": "http://localhost:8080/onlineauction/api/admin/create-project",
+			"headers": "",
+			"created": 1528308878318,
+			"updated": 1528308878318,
+			"kind": "ARC#RequestData"
+		}, {
+			"type": "saved",
+			"headers": "content-type: application/json\ncookie: JSESSIONID=A62A237A3CD6AD8FD900626F72BDC031",
+			"method": "POST",
+			"name": "CreProject",
+			"payload": "{\"name\":\"Proj1\",\"employerId\":1,\"endDate\":\"08-08-2018 22:14:09 +0000\"}",
+			"url": "http://localhost:8080/create-project",
+			"updated": 1528312100105,
+			"_referenceLegacyProject": "40b9a766-b9e1-42fb-9ec4-3047f7f275ca",
+			"kind": "ARC#RequestData"
+		}, {
+			"type": "saved",
+			"method": "GET",
+			"name": "GetBids",
+			"payload": "",
+			"url": "http://localhost:8080/bids",
+			"updated": 1528308964352,
+			"headers": "",
+			"created": 1528242816274,
+			"kind": "ARC#RequestData"
+		}, {
+			"type": "saved",
+			"headers": "",
+			"method": "GET",
+			"name": "GetEmployers",
+			"payload": "",
+			"url": "http://localhost:8080/employers",
+			"updated": 1528310543144,
+			"_referenceLegacyProject": "40b9a766-b9e1-42fb-9ec4-3047f7f275ca",
+			"kind": "ARC#RequestData"
+		}, {
+			"type": "saved",
+			"headers": "cookie: JSESSIONID=D65FD757062241B7130ED185E893B48D",
+			"method": "GET",
+			"name": "GetProject1",
+			"payload": "",
+			"url": "http://localhost:8080/get-project/1",
+			"updated": 1528312165510,
+			"_referenceLegacyProject": "40b9a766-b9e1-42fb-9ec4-3047f7f275ca",
+			"kind": "ARC#RequestData"
+		}, {
+			"type": "saved",
+			"method": "GET",
+			"name": "GetProjectId1",
+			"payload": "",
+			"url": "http://localhost:8080/get-project/1",
+			"updated": 1528308964352,
+			"headers": "",
+			"created": 1528228470040,
+			"kind": "ARC#RequestData"
+		}, {
+			"type": "saved",
+			"method": "GET",
+			"name": "GetProjects",
+			"payload": "",
+			"url": "http://localhost:8080/projects",
+			"updated": 1528308964352,
+			"headers": "",
+			"created": 1528242870979,
+			"kind": "ARC#RequestData"
+		}, {
+			"type": "saved",
+			"headers": "authorization: Basic dXNlcjE6dXNlcjE=",
+			"method": "GET",
+			"name": "Id1GPU1",
+			"payload": "",
+			"url": "http://localhost:8080/get-project/1",
+			"updated": 1528228470040,
+			"kind": "ARC#RequestData"
+		}
+	],
+	"projects": [{
+			"name": "cg",
+			"order": 0,
+			"created": 1528309105067,
+			"updated": 1528309105067,
+			"_referenceId": "40b9a766-b9e1-42fb-9ec4-3047f7f275ca",
+			"kind": "ARC#ProjectData"
+		}
+	]
+}
