@@ -16,7 +16,7 @@ below API are available:
  "/bids";
  "/create-bid";
  "/create-project"   :
- 	 	Note: endDate shall include timezone , ex: Wed Jun 06 10:56:48 PDT 2018 	 
+ 	 	Note: endDate shall include timezone , ex: 04-06-2018 22:14:09 +0000 	 
  "/get-project/{projectId}";
  "/create-employer";
  "/create-bidder";
