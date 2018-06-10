@@ -28,3 +28,6 @@ below API are available:
 used in-memory database (HSQLDB) which
 
 
+The overhead of computing the minimum Bid and Autobid are done efficiently using muli-level index-ing .
+Indexing also help not allowing duplicate values for columns Normal Bid,AutoBid.
+ 
